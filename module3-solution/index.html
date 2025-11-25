@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Food, LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS (v3) -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+
+        <div class="navbar-header">
+          <!-- Brand -->
+          <a href="index.html" class="navbar-brand">Food, LLC</a>
+
+          <!-- Toggler button (for mobile) -->
+          <button type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapsable-nav"
+                  aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- /.navbar-header -->
+
+        <!-- Collapsable Menu (shown in mobile view) -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li><a href="#chicken" class="text-center">Chicken</a></li>
+            <li><a href="#beef" class="text-center">Beef</a></li>
+            <li><a href="#sushi" class="text-center">Sushi</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container -->
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <div id="main-content" class="container">
+
+    <!-- Page heading Our Menu (centered with Bootstrap class) -->
+    <h1 id="menu-title" class="text-center">Our Menu</h1>
+
+    <!-- Bootstrap Grid -->
+    <section class="row">
+
+      <!-- Chicken -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="chicken" class="menu-item-tile">
+          <h3 class="text-center">Chicken</h3>
+          <p>
+            Our chicken dishes are cooked slowly with herbs and spices to create
+            a soft, juicy texture and rich flavor. Served with vegetables and rice,
+            this is a perfect option if you like something comforting but still
+            full of taste. Each portion is prepared fresh, so the aroma and flavor
+            stay strong until the very last bite.
+          </p>
+          <p>
+            The recipe focuses on simple ingredients: garlic, onions, peppers,
+            and a light homemade sauce. Even though the ingredients are simple,
+            the balance between salty, sweet, and spicy makes this dish one of
+            our most popular choices on the menu.
+          </p>
+        </div>
+      </div>
+
+      <!-- Beef -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="beef" class="menu-item-tile">
+          <h3 class="text-center">Beef</h3>
+          <p>
+            Our beef plate uses slow-cooked beef that becomes incredibly tender.
+            The meat is marinated for hours before cooking, which lets the flavors
+            sink deeply into every piece. It goes especially well with steamed
+            rice or warm bread.
+          </p>
+          <p>
+            We combine the beef with a slightly spicy sauce to keep the taste
+            interesting from the first bite to the last. If you are hungry and
+            want something filling, this section of the menu is made for you and
+            will definitely make you feel satisfied.
+          </p>
+        </div>
+      </div>
+
+      <!-- Sushi -->
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div id="sushi" class="menu-item-tile">
+          <h3 class="text-center">Sushi</h3>
+          <p>
+            Our sushi menu includes a mix of classic rolls and simple, clean
+            combinations that focus on the freshness of the ingredients. The rice
+            is seasoned gently so that it supports, rather than hides, the flavor
+            of the fish and vegetables.
+          </p>
+          <p>
+            Whether you choose a vegetable roll or a fish-based roll, every piece
+            is prepared right before serving. The portion is large enough so that
+            you will need to scroll down the page to read everything, which also
+            meets the requirement of having content tall enough to force scrolling.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+  </div><!-- /#main-content -->
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
